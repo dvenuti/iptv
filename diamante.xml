@@ -29,7 +29,7 @@
   <channel update="i" site="lineup.net.br" site_id="122" xmltv_id="AXN">AXN</channel>
   <channel update="i" site="netcombo.com.br" site_id="482" xmltv_id="AXN HD">AXN HD</channel>
   <channel update="i" site="netcombo.com.br" site_id="932" xmltv_id="BABY TV">BABY TV</channel>
-  <channel update="i" site="clarotv.com.br" site_id="5" xmltv_id="BAND">BAND</channel>
+  
   <channel update="i" site="netcombo.com.br" site_id="408" xmltv_id="BAND HD">BAND HD</channel>
   <channel update="i" site="clarotv.com.br" site_id="7" xmltv_id="BAND NEWS">BAND NEWS</channel>
   <channel update="i" site="meuguia.tv" site_id="canal/NEW" xmltv_id="BAND NEWS HD">BAND NEWS HD</channel>
