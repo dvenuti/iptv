@@ -1,0 +1,142 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml -->
+   
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">mdb</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0</user-agent>
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>0</timespan>
+  <update>f</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+  -->
+  
+  <channel site="dummy" site_id="xx" update="i" xmltv_id="Example">Example</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/MGM" xmltv_id="AMC ">AMC </channel>
+  <channel update="i" site="clarotv.com.br" site_id="3" xmltv_id="ANIMAL PLANET">ANIMAL PLANET</channel>
+  <channel update="i" site="lineup.net.br" site_id="13" xmltv_id="ANIMAL PLANET HD">ANIMAL PLANET HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="211" xmltv_id="ARTE 1">ARTE 1</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1073" xmltv_id="ARTE 1 HD">ARTE 1 HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="122" xmltv_id="AXN">AXN</channel>
+  <channel update="i" site="netcombo.com.br" site_id="482" xmltv_id="AXN HD">AXN HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="932" xmltv_id="BABY TV">BABY TV</channel>
+  <channel update="i" site="clarotv.com.br" site_id="5" xmltv_id="BAND">BAND</channel>
+  <channel update="i" site="netcombo.com.br" site_id="408" xmltv_id="BAND HD">BAND HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="7" xmltv_id="BAND NEWS">BAND NEWS</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/NEW" xmltv_id="BAND NEWS HD">BAND NEWS HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="8" xmltv_id="BAND SPORTS">BAND SPORTS</channel>
+  <channel update="i" site="lineup.net.br" site_id="91" xmltv_id="BAND SPORTS HD">BAND SPORTS HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1055" xmltv_id="BIS">BIS</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/MSH" xmltv_id="Bis HD">BIS HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="357" xmltv_id="BOA VONTADE">BOA VONTADE</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11" xmltv_id="BOOMERANG">BOOMERANG</channel>
+  <channel update="i" site="lineup.net.br" site_id="150" xmltv_id="BOOMERANG HD">BOOMERANG HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="14" xmltv_id="CANAL BRASIL">CANAL BRASIL</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1131" xmltv_id="CANAL BRASIL HD">CANAL BRASIL HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="90" xmltv_id="CANAL SONY">CANAL SONY</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1008" xmltv_id="CANAL SONY HD">CANAL SONY HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="102" xmltv_id="CANÇÃO NOVA">CANÇÃO NOVA</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1270" xmltv_id="CARTOON NETWORK">CARTOON NETWORK</channel>
+  <channel update="i" site="lineup.net.br" site_id="151" xmltv_id="CARTOON NETWORK HD">CARTOON NETWORK HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="19" xmltv_id="CINEMAX">CINEMAX</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1041" xmltv_id="Cinemax">CINEMAX HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/135" xmltv_id="Combate">COMBATE</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1027" xmltv_id="Combate HD">COMBATE HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="188" xmltv_id="Comedy Central">COMEDY CENTRAL</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1088" xmltv_id="COMEDY CENTRAL HD">COMEDY CENTRAL HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="203" xmltv_id="Curta!">Curta!</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1053" xmltv_id="CURTA! HD">CURTA! HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="14" xmltv_id="DISCOVERY CHANNEL">DISCOVERY CHANNEL</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/DIS" xmltv_id="DISCOVERY CHANNEL HD">DISCOVERY CHANNEL HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="422" xmltv_id="DISCOVERY CIVILIZATION">DISCOVERY CIVILIZATION</channel>
+  <channel update="i" site="lineup.net.br" site_id="15" xmltv_id="DISCOVERY CIVILIZATION HD">DISCOVERY CIVILIZATION HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="288" xmltv_id="DISCOVERY KIDS">DISCOVERY KIDS</channel>
+  <channel update="i" site="netcombo.com.br" site_id="420" xmltv_id="DISCOVERY KIDS HD">DISCOVERY KIDS HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="18" xmltv_id="DISCOVERY SCIENCE">DISCOVERY SCIENCE</channel>
+  <channel update="i" site="netcombo.com.br" site_id="423" xmltv_id="Discovery Science">DISCOVERY SCIENCE HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/DHD" xmltv_id="DISCOVERY THEATER">DISCOVERY THEATER</channel>
+  <channel update="i" site="clarotv.com.br" site_id="26" xmltv_id="DISCOVERY THEATER HD">DISCOVERY THEATER HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="419" xmltv_id="DISCOVERY TURBO">DISCOVERY TURBO</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/DTU" xmltv_id="DISCOVERY TURBO HD">DISCOVERY TURBO HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="24" xmltv_id="DISCOVERY WORLD">DISCOVERY WORLD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1144" xmltv_id="DISCOVERY WORLD  HD">DISCOVERY WORLD  HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="166" xmltv_id="DISNEY CHANNEL">DISNEY CHANNEL</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1036" xmltv_id="DISNEY CHANNEL HD">DISNEY CHANNEL HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="77" xmltv_id="DISNEY JUNIOR">DISNEY JUNIOR</channel>
+  <channel update="i" site="lineup.net.br" site_id="27" xmltv_id="DISNEY XD">DISNEY XD</channel>
+  <channel update="i" site="lineup.net.br" site_id="104" xmltv_id="E!">E!</channel>
+  <channel update="i" site="netcombo.com.br" site_id="927" xmltv_id="E! HD">E! HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="36" xmltv_id="ESPN">ESPN</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1081" xmltv_id="ESPN HD">ESPN HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="35" xmltv_id="ESPN BRASIL">ESPN BRASIL</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1049" xmltv_id="ESPN BRASIL HD">ESPN BRASIL HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/SPI" xmltv_id="Esporte Interativo">Esporte Interativo</channel>
+  <channel update="i" site="lineup.net.br" site_id="3017" xmltv_id="Esporte Interativo 2">Esporte Interativo 2</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1202" xmltv_id="FISH TV">FISH TV</channel>
+  <channel update="i" site="lineup.net.br" site_id="23" xmltv_id="Fish TV">FISH TV HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="2386" xmltv_id="FOOD NETWORK">FOOD NETWORK</channel>
+  <channel update="i" site="netcombo.com.br" site_id="935" xmltv_id="FOOD NETWORK HD">FOOD NETWORK HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="40" xmltv_id="FOX">FOX</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1103" xmltv_id="FOX HD">FOX HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="45" xmltv_id="FOX LIFE">FOX LIFE</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/FLI" xmltv_id="FOX LIFE HD">FOX LIFE HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1034" xmltv_id="FOX SPORTS">FOX SPORTS</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/FS2" xmltv_id="FOX SPORTS 2">FOX SPORTS 2</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/FUT" xmltv_id="FUTURA">FUTURA</channel>
+  <channel update="i" site="clarotv.com.br" site_id="46" xmltv_id="FUTURA HD">FUTURA HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/CFX" xmltv_id="FX">FX</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1104" xmltv_id="FX HD">FX HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="49" xmltv_id="GLOBO NEWS">GLOBO NEWS</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1066" xmltv_id="GLOBO NEWS HD">GLOBO NEWS HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="563" xmltv_id="GLOBO RJ HD">GLOBO RJ HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1042" xmltv_id="GLOOB">GLOOB</channel>
+  <channel update="i" site="clarotv.com.br" site_id="191" xmltv_id="GLOOB HD">GLOOB HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="433" xmltv_id="GNT">GNT</channel>
+  <channel update="i" site="clarotv.com.br" site_id="48" xmltv_id="GNT HD">GNT HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/CH2" xmltv_id="H2 HD">H2 HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="10" xmltv_id="H2 SD">H2 SD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="856" xmltv_id="HBO">HBO</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/HB2" xmltv_id="HBO 2">HBO 2</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1099" xmltv_id="HBO FAMILY">HBO FAMILY </channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/HFA" xmltv_id="HBO Family [Brazil]">HBO FAMILY HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="866" xmltv_id="HBO PLUS">HBO PLUS</channel>
+  <channel update="i" site="clarotv.com.br" site_id="53" xmltv_id="HBO PLUS HD">HBO PLUS HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/HFE" xmltv_id="HBO SIGNATURE">HBO SIGNATURE</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1086" xmltv_id="HBO SIGNATURE HD">HBO SIGNATURE HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1011" xmltv_id="HISTORY">HISTORY</channel>
+  <channel update="i" site="clarotv.com.br" site_id="119" xmltv_id="HISTORY HD">HISTORY HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/LIV" xmltv_id="INVESTIGATION DISCOVERY">INVESTIGATION DISCOVERY</channel>
+  <channel update="i" site="lineup.net.br" site_id="21" xmltv_id="INVESTIGATION DISCOVERY HD">INVESTIGATION DISCOVERY HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="531" xmltv_id="LIFETIME">LIFETIME</channel>
+  <channel update="i" site="lineup.net.br" site_id="124" xmltv_id="LIFETIME HD">LIFETIME HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="201" xmltv_id="MAIS GLOBOSAT">MAIS GLOBOSAT</channel>
+  <channel update="i" site="netcombo.com.br" site_id="922" xmltv_id="MAIS GLOBOSAT HD">MAIS GLOBOSAT HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/MXE" xmltv_id="MAX">MAX</channel>
+  <channel update="i" site="netcombo.com.br" site_id="895" xmltv_id="MAX HD">MAX HD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="65" xmltv_id="MAX PRIME">MAX PRIME</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1127" xmltv_id="MAX PRIME HD">MAX PRIME HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/MHD" xmltv_id="MAX UP">MAX UP</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1128" xmltv_id="MAX UP HD">MAX UP HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="79" xmltv_id="MEGAPIX">MEGAPIX</channel>
+  <channel update="i" site="netcombo.com.br" site_id="878" xmltv_id="MEGAPIX HD">MEGAPIX HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/MTV" xmltv_id="MTV">MTV</channel>
+  <channel update="i" site="netcombo.com.br" site_id="574" xmltv_id="MTV HD">MTV HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="canal/MSW" xmltv_id="MULTISHOW">MULTISHOW</channel>
+  <channel update="i" site="clarotv.com.br" site_id="68" xmltv_id="MULTISHOW HD">MULTISHOW HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="10" xmltv_id="MUSIC BOX BRASIL">MUSIC BOX BRASIL</channel>
+  <channel update="i" site="clarotv.com.br" site_id="222" xmltv_id="MUSIC BOX BRASIL HD">MUSIC BOX BRASIL HD</channel>
+  
+  
+  
+  
+  
+  </settings>
